@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rye" rel="stylesheet">
+  <script src="jquery-3.3.1.min.js"></script>
+</head>
+<title>Survey</title>
+</head>
+
+<body>
+  <container>
+      <div class="card bg-dark text-white" id="header">
+          <img src="sunset.png" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <p id="card-title">LOVE Quiz</p>
+            <!-- <p id="card-text">Answer the following 10 questions and I'll match you with a perfect mate.</p> -->
+          </div>
+        </div>     
+    </container>
+
+  <container>
+  <div id="question1">
+    <h3>1. How often do you excercise?</h3>
+    <input type="radio" name="excercise" id="answer1A" value="1">1 - Not at All</label>
+    <input type="radio" name="excercise" id="answer1B" value="2">2 - Barely</label>
+    <input type="radio" name="excercise" id="answer1C" value="3">3 - Fairly</label>
+    <input type="radio" name="excercise" id="answer1D" value="4">4 - Routinely</label>
+    <input type="radio" name="excercise" id="answer1E" value="5">5 - Professionally</label>
+  </div>
+
+  <div id="question2">
+    <h3>2. How many friends do you have?</h3>
+    <input type="radio" name="friends" value="1">1 or fewer</label>
+    <input type="radio" name="friends" value="2">2</label>
+    <input type="radio" name="friends" value="3">3</label>
+    <input type="radio" name="friends" value="4">4</label>
+    <input type="radio" name="friends" value="5">5 or more</label>
+  </div>
+
+  <div id="question3">
+    <h3>3. How well can you sing the National Anthem?</h3>
+    <input type="radio" name="anthem">1 - Not Well</label>
+    <input type="radio" name="anthem">2 - Better than Fergie</label>
+    <input type="radio" name="anthem">3 - I can lipsync</label>
+    <input type="radio" name="anthem">4 - Very good</label>
+    <input type="radio" name="anthem">5 - I sing "too" beautifully</label>
+  </div>
+  <div id="question4">
+    <h3>4. How many movies do you watch a year?</h3>
+    <input type="radio" name="movies">0-1</label>
+    <input type="radio" name="movies">2-5</label>
+    <input type="radio" name="movies">6-12</label>
+    <input type="radio" name="movies">12-24</label>
+    <input type="radio" name="movies">24+</label>
+  </div>
+  <div id="question5">
+    <h3>5. How many octaves is Ariana Grande's range?</h3>
+    <input type="radio" name="range">0-1 octaves</label>
+    <input type="radio" name="range">2 octaves</label>
+    <input type="radio" name="range">3 octaves</label>
+    <input type="radio" name="range">4 octaves</label>
+    <input type="radio" name="range">5+ octaves</label>
+  </div>
+
+  <div id="question6">
+    <h3>6. How nigh is the apocalypse?</h3>
+    <input type="radio" name="night">1 - 'twill never be nigh!</label>
+    <input type="radio" name="night">2 - Idk jury is still out</label>
+    <input type="radio" name="night">3 - Not for, like, a while</label>
+    <input type="radio" name="night">4 - Coming soon!</label>
+    <input type="radio" name="night">5 - It's nigh, alrigh</label>
+  </div>
+
+  <div id="question7">
+    <h3>7. How optimistic are you?</h3>
+    <input type="radio" name="optimistic">1 - Not at All</label>
+    <input type="radio" name="optimistic">2 - Barely</label>
+    <input type="radio" name="optimistic">3 - Fairly</label>
+    <input type="radio" name="optimistic">4 - Relatively</label>
+    <input type="radio" name="optimistic">5 - Somewhat</label>
+  </div>
+
+  <div id="question8">
+    <h3>8. How would you asses your own coding skills?</h3>
+    <input type="radio" name="coding">1 - Little to none</label>
+    <input type="radio" name="coding">2 - Entry level</label>
+    <input type="radio" name="coding">3 - I can do a static page</label>
+    <input type="radio" name="coding">4 - Industry professionals</label>
+    <input type="radio" name="coding">5 - Wizard status</label>
+  </div>
+  <div id="question9">
+    <h3>9. How tall are you?</h3>
+    <input type="radio" name="tall">1 - Not at All</label>
+    <input type="radio" name="tall">2 - Below average</label>
+    <input type="radio" name="tall">3 - Average</label>
+    <input type="radio" name="tall">4 - Above average</label>
+    <input type="radio" name="tall">5 - Karlie Kloss</label>
+  </div>
+  <div id="question10">
+    <h3>10. Do you lean left or right?</h3>
+    <input type="radio" name="left">1 - Far left</label>
+    <input type="radio" name="left">2 - left</label>
+    <input type="radio" name="left">3 - "Neutral..."</label>
+    <input type="radio" name="left">4 - Right</label>
+    <input type="radio" name="left">5 - Far right</label>
+  </div>
+
+  <!--Here, I inserted a button link from bootstrap. Once the button is clicked, a modal will pop
+  up. Inside the modal will be displayed: data from our array of profiles such as a name,photo, and perhaps a bio
+. The data displayed will be generated by the total "score" from the user's quiz. -->
+
+  <button type="button" data-toggle="modal" data-target="#myModal">Launch modal</button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+           <p>Here is the modal</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</container>
+
+<script> 
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous";
+
+
+    $('form').submit( function(event) {
+      event.preventDefault();
+
+      $.ajax({
+        url: "/api/friends",
+        method: "POST",
+        // data: { 
+        //   ans1: $("input[name=ans1]:checked").val(),
+        //   ans2: $("input[name=ans2]:checked").val(),
+        //   ans3: $("input[name=ans3]:checked").val(),
+        // }
+        data: $(this).serialize()
+      }).then(
+        function(result){ console.log(result) }, 
+        function(jqXHR, status){ console.log(status) }
+      )
+      console.log("submitting form")
+    })
+  </script>
+
+</body>
+
+</html>

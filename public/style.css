@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    /* font-family: 'Rye', cursive; */
+}
+
+/* #header {
+    font-family: 'Rye', cursive;
+} */
+
+#card-title {
+    font-family: 'Rye', cursive;
+font-size: 250px;
+}
+
+#card-text {
+    font-family: 'Rye', cursive;
+font-size: 125px;
+}
+
+#card-title-home {
+    font-family: 'Rye', cursive;
+    font-size: 230px;
+}
