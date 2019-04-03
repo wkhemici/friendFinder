@@ -1,4 +1,4 @@
-module.exports = [
+ var friendsArray = [
     {
       "name":"Param",
       "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
@@ -160,3 +160,5 @@ module.exports = [
         ]
       }
   ]
+
+module.exports = friendsArray;
