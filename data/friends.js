@@ -1,72 +1,162 @@
 module.exports = [
     {
-      "name":"Ahmed",
+      "name":"Param",
       "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
-      "score":[
-       5
+      "scores":[
+       5, 
+       4, 
+       3, 
+       1, 
+       2, 
+       3, 
+       4, 
+       1,
+       2, 
+       3
       ]
     },
     {
         "name":"Rodrigo",
         "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
         "scores":[
-          10
+            5, 
+            4, 
+            3, 
+            1, 
+            2, 
+            3, 
+            4, 
+            1,
+            2, 
+            3
         ]
       },
       {
         "name":"Imran",
         "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
         "scores":[
-         20
+            5, 
+            4, 
+            3, 
+            1, 
+            2, 
+            3, 
+            4, 
+            1,
+            2, 
+            3
         ]
       },
       {
         "name":"AJ",
         "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
         "scores":[
-          30
+            5, 
+            4, 
+            3, 
+            1, 
+            2, 
+            3, 
+            4, 
+            1,
+            2, 
+            3
         ]
       },
       {
         "name":"Trey",
         "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
         "scores":[
-          40
+            5, 
+            4, 
+            3, 
+            1, 
+            2, 
+            3, 
+            4, 
+            1,
+            2, 
+            3
         ]
       },
       {
         "name":"Dino",
         "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
         "scores":[
-          50
+            5, 
+            4, 
+            3, 
+            1, 
+            2, 
+            3, 
+            4, 
+            1,
+            2, 
+            3
         ]
       },
       {
         "name":"Bruce",
         "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
         "scores":[
-         15
+            5, 
+            4, 
+            3, 
+            1, 
+            2, 
+            3, 
+            4, 
+            1,
+            2, 
+            3
         ]
       },
       {
-        "name":"Matt",
+        "name":"Juan",
         "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
         "scores":[
-          25
+            5, 
+            4, 
+            3, 
+            1, 
+            2, 
+            3, 
+            4, 
+            1,
+            2, 
+            3
         ]
       },
       {
-        "name":"Kanishka",
+        "name":"Hieu",
         "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
         "scores":[
-          35
+            5, 
+            4, 
+            3, 
+            1, 
+            2, 
+            3, 
+            4, 
+            1,
+            2, 
+            3
         ]
       },
       {
-        "name":"Abraham",
+        "name":"Eric",
         "photo":"https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
         "scores":[
-          45
+            5, 
+            4, 
+            3, 
+            1, 
+            2, 
+            3, 
+            4, 
+            1,
+            2, 
+            3
         ]
       }
   ]

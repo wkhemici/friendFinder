@@ -1,23 +1,36 @@
-const path = require("path")
+const friends = require('../data/friends')
 const router = require('express').Router()
   
 router.get('/friends', function(req, res){
-
-  res.send("get friends")
+  res.json(JSON.stringify(friends))
 })
 
 router.post("/friends",function(req, res){
   console.log(req.body)
-  const scores = Object.values(req.body)
-  const data = { 
-    name: "Ahmed",
-    photo: "https://static01.nyt.com/images/2017/11/14/arts/14baldwin-baldwin/14baldwin-baldwin-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
-    score: score 
-  }
+  console.log(friends)
 
-  console.log(data);
-  
-  res.send("post friends")
+  let closestFriend = 50
+  let closestFriendIndex = -1
+
+
+friends.forEach ( (friends, index) => {
+   const formula = (accum,curr) => parseInt(accum) + parseInt(curr)
+
+   const score = friends( formula )
+   const otherScore = req.body.scores( formula )
+
+   const diff = Math.abs(score - otherScore)
+   if( closestFriend>diff){
+       closestFriend = diff
+       closestFriendIndex = index
+   }
+
+   console.log(score, otherScore)
+})
+  console.log(closestFriend);
+  res.json(friends[closestFriendIndex])
+  friends.push(req.body);
 })
 
 module.exports = router;
+

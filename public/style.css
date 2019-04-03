@@ -21,3 +21,8 @@ font-size: 125px;
     font-family: 'Rye', cursive;
     font-size: 230px;
 }
+
+#surveyLink { 
+    position: relative;
+    z-index: 10;
+}
